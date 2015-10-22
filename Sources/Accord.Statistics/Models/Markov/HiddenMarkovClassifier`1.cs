@@ -59,7 +59,7 @@ namespace Accord.Statistics.Models.Markov
     ///   
     [Serializable]
     public class HiddenMarkovClassifier<TDistribution> : BaseHiddenMarkovClassifier<HiddenMarkovModel<TDistribution>>,
-        IEnumerable<HiddenMarkovModel<TDistribution>>, IHiddenMarkovClassifier where TDistribution : IDistribution
+        IEnumerable<HiddenMarkovModel<TDistribution>>, ISaveableHiddenMarkovClassifier where TDistribution : IDistribution
     {
 
         /// <summary>

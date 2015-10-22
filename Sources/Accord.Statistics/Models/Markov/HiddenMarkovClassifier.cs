@@ -58,7 +58,7 @@ namespace Accord.Statistics.Models.Markov
     /// 
     [Serializable]
     public class HiddenMarkovClassifier : BaseHiddenMarkovClassifier<HiddenMarkovModel>,
-        IEnumerable<HiddenMarkovModel>, IHiddenMarkovClassifier
+        IEnumerable<HiddenMarkovModel>, ISaveableHiddenMarkovClassifier
     {
 
         /// <summary>
